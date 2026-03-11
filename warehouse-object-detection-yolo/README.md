@@ -1,4 +1,4 @@
-# Warehouse Object Detection using YOLOv8
+# Warehouse Object Detection using YOLOv9
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![YOLOv9](https://img.shields.io/badge/YOLOv9-Ultralytics-green)
