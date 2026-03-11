@@ -1,4 +1,11 @@
-# Warehouse Object Detection using YOLOv9
+# Warehouse Object Detection using YOLOv8
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![YOLOv9](https://img.shields.io/badge/YOLOv9-Ultralytics-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+---
 
 ## Project Overview
 
@@ -15,6 +22,22 @@ The model is trained using the YOLOv9 object detection framework and a labeled w
 * PyTorch
 * Computer Vision
 * Roboflow Dataset
+
+---
+
+## Quick Start
+
+Clone the repository:
+
+git clone https://github.com/vijaygavvala/warehouse-object-detection-yolo.git
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run object detection:
+
+python predict.py
 
 ---
 
@@ -38,7 +61,15 @@ Only sample images are included in this repository.
 
 Training command used:
 
-yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=5 imgsz=320 batch=8
+yolo task=detect mode=train model=yolov9n.pt data=data.yaml epochs=5 imgsz=320 batch=8
+
+---
+
+## Demo
+
+This project detects warehouse objects such as boxes, pallets, forklifts and workers using a YOLOv9 model trained on labeled warehouse images.
+
+Example detection outputs are shown below.
 
 ---
 
