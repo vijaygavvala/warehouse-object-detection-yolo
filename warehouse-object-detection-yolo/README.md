@@ -50,7 +50,17 @@ The trained model achieves object detection performance evaluated using:
 * Recall
 * mAP (Mean Average Precision)
 
-Example evaluation outputs are stored in the `results/` folder.
+---
+
+## Detection Results
+
+Example object detection outputs:
+
+![Results](results/results.png)
+
+## Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix.png)
 
 ---
 
@@ -77,6 +87,8 @@ warehouse-object-detection-yolo
 ├── evaluate.py
 ├── run_project.py
 ├── requirements.txt
+├── .gitignore
+├── LICENSE
 └── README.md
 
 ---
