@@ -59,7 +59,8 @@ Example evaluation outputs are stored in the `results/` folder.
 warehouse-object-detection-yolo
 │
 ├── dataset
-│   └── sample_images
+│   ├── sample_images
+│   └── dataset_info.md
 │
 ├── model
 │   └── best.pt
@@ -68,10 +69,14 @@ warehouse-object-detection-yolo
 │   └── train.py
 │
 ├── results
-│   ├── confusion_matrix.png
 │   ├── results.png
+│   ├── confusion_matrix.png
 │   └── predicted_images
 │
+├── predict.py
+├── evaluate.py
+├── run_project.py
+├── requirements.txt
 └── README.md
 
 ---
